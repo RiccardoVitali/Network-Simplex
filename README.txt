@@ -37,9 +37,9 @@ Per classe Network_Simplex si dovrà inserire la matrice dei grafo e il vettore 
 Esempio:
 const vector<vector<double>> rete = {       {0,0,15,27,32},
                                             {0,0,18,30,25},
-                                            {0,0,0,0,0},
-                                            {0,0,0,0,0},
-                                            {0,0,0,0,0}   };
+                                            {0,0, 0, 0, 0},
+                                            {0,0, 0, 0, 0},
+                                            {0,0, 0, 0, 0}	};
 
 const vector<int> sup_dem{100,150,-50,-120,-80};
 Corrisponde al problema del test.
