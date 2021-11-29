@@ -20,7 +20,7 @@ Nel main ci sono degli esempi di problemi (tra cui quello del test) basterà sce
 Per la classe Simplex il si dovrà inserire la matrice dei vincoli, la funzione obiettivo (da minimizzare) e i segni dei vincoli. I termini noti della matrice dei vincoli devono essere positivi e il problema deve essere feasible.
 
 Esempio:
-vectordouble> objective = {0,-5,-7};  
+vector<double> objective = {0,-5,-7};  
     const vector<char> signs = {'<','<','<'};
     vector<vector<double>> table = {   {8,2,1},
                                        {9,1,2},
